@@ -45,7 +45,7 @@ void setup() {
   map = generateMap(mapURL, lon+0.24, lat-0.05, zoom, width/2, height/2, token); 
 }
 
-void draw() {
+void draw() { //do the thing that does the stuff
   background(0);
   image(map, 0, 0);
   manageInformationTransitions(onScreenTime);
