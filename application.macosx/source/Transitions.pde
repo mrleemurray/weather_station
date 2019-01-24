@@ -1,0 +1,3 @@
+boolean isTransitionComplete(){
+  return true;
+}
